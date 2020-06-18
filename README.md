@@ -10,8 +10,8 @@ git clone https://github.com/devpmac/Recipes.git && cd Recipes
 
 | Linux | Windows |
 | --- | --- |
-| python -m venv env | python -m venv env |
-| source env/bin/activate | \env\Scripts\activate.bat |
+| `python -m venv env` | `python -m venv env` |
+| `source env/bin/activate` | `\env\Scripts\activate.bat` |
 
 `pip install -r requirements.txt`
 
@@ -20,7 +20,7 @@ git clone https://github.com/devpmac/Recipes.git && cd Recipes
 
 | Setup |
 | --- |
-| mkdir src_django |
-| django-admin startproject recipes src_django |
-| python src_django/manage.py migrate |
-| python src_django/manage.py runserver |
+| `mkdir src_django` |
+| `django-admin startproject recipes src_django` |
+| `python src_django/manage.py migrate` |
+| `python src_django/manage.py runserver` |
