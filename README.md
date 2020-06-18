@@ -4,18 +4,18 @@ Code for a simple web page to store recipes.
 
 ### Virtual Environment Installation
 
-Linux |
---- |
-git clone https://github.com/devpmac/Recipes.git |
-cd learn |
-python3 -m venv env |
-source env/bin/activate |
-pip install -r requirements.txt |
+| Linux | Windows |
+| --- | --- |
+| git clone https://github.com/devpmac/Recipes.git <td colspan=2> |
+| cd Recipes <td colspan=2> |
+| python3 -m venv env | python -m venv env |
+| source env/bin/activate | \env\Scripts\activate.bat |
+| pip install -r requirements.txt  <td colspan=2> |
 
 
 ### Start Django server
 
-Linux |
+Setup |
 --- |
 mkdir src_django |
 django-admin startproject recipes src_django |
