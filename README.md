@@ -6,11 +6,11 @@ Code for a simple web page to store recipes.
 
 Linux | Windows |
 --- | --- |
-<td colspan=2> git clone https://github.com/devpmac/Recipes.git |
-<td colspan=2> cd Recipes |
+<td colspan=2> git clone https://github.com/devpmac/Recipes.git
+<td colspan=2> cd Recipes
 python3 -m venv env | python -m venv env |
 source env/bin/activate | \env\Scripts\activate.bat |
-<td colspan=2> pip install -r requirements.txt |
+<td colspan=2> pip install -r requirements.txt
 
 
 ### Start Django server
